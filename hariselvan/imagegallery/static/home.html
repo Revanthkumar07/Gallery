@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <h1>Interactive Photo Gallery</h1>
+    <div class="gallery">
+        <img src="doreamon.png" alt="Image 1" onclick="openModal(this)">
+        <img src="Nobita.png" alt="Image 2" onclick="openModal(this)">
+        <img src="shizuka.png" alt="Image 3" onclick="openModal(this)">
+        <img src="sunio.png" alt="Image 4" onclick="openModal(this)">
+        <img src="Jaian.png" alt="Image 5" onclick="openModal(this)">
+    </div>
+
+    <div class="modal" id="imageModal">
+        <span onclick="closeModal()">&times;</span>
+        <img id="modalImage" src="" alt="">
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
+
+
+
+
+
